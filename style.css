@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h2{
+        @apply text-xl;
+        @apply font-semibold;
+        /* @apply  */
+    }
+
+    h4{
+        @apply text-base;
+        @apply font-semibold;
+    }
+
+    p{
+        @apply text-xs;
+    }
+}
+
+.grid-span-2{
+    grid-column: span 2;
+}
