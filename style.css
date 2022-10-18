@@ -6,7 +6,6 @@
     h2{
         @apply text-xl;
         @apply font-semibold;
-        /* @apply  */
     }
 
     h4{
